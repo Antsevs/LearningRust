@@ -4,10 +4,10 @@ fn main(){
     another_function(5, 'h');
 
     let x = five();
-    println!("{x}")
+    println!("{x}");
 
-    let n = mismatched_types(5);
-    println!("{n}");    //this will throw an error of mismatched types. 
+    //ERROR EXAMPLElet n = mismatched_types(5);
+    //println!("{n}");    this will throw an error of mismatched types. 
 }
 
 //parameters MUST be annotated
@@ -33,6 +33,6 @@ fn five() -> i32{
     5
 }
 
-fn mismatched_types(n: i32) -> i32{
-    n + 1;  //statement doesn't return value
-}
+//ERROR EXAMPLE:fn mismatched_types(n: i32) -> i32{
+//   n + 1;  //statement doesn't return value
+//}

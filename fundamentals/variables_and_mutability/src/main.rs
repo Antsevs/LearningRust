@@ -28,7 +28,7 @@ fn main(){
     let string = string.len();
     //the above changes string as a string to a integer called string
     //if we used mutable
-    let mut test = "string";
-    test = test.len()
+    //ERROR EXAMPLE let mut test = "string";
+    //ERROR EXAMPLE test = test.len();
     //the above gives a compiler error, as we cannot change the type of test from a string to an integer
 }
