@@ -6,7 +6,6 @@ members = [
 	"fundamentals/data_types",
 	"fundamentals/functions",
 	"fundamentals/control_flow",
-	"fundamentals/practice",
 	"guessing_game",
 	"fundamentals/practice/Faren_to_Cels",
 	"fundamentals/practice/fibonacci",
