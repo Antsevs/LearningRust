@@ -1,0 +1,28 @@
+name: Rust (Workspace)
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Rust 1.89.0
+        uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: "1.89.0"
+
+      - name: Cache Rust build
+        uses: Swatinem/rust-cache@v2
+
+      - name: Build (all workspace members)
+        run: cargo build --verbose
+
+      - name: Test (all workspace members)
+        run: cargo test --verbose
