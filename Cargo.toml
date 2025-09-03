@@ -1,0 +1,13 @@
+[workspace]
+members = [
+	"fundamentals/hello_world",
+	"fundamentals/hello_cargo",
+	"fundamentals/variables_and_mutability",
+	"fundamentals/data_types",
+	"fundamentals/functions",
+	"fundamentals/control_flow",
+	"fundamentals/practice",
+	"guessing_game",
+]
+
+resolver = "2"
