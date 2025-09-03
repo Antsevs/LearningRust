@@ -1,0 +1,1 @@
+C:\Users\sevar\OneDrive\Desktop\Dev\LearningRust\fundamentals\practice\fibonacci\target\debug\fibonacci.exe: C:\Users\sevar\OneDrive\Desktop\Dev\LearningRust\fundamentals\practice\fibonacci\src\main.rs
