@@ -1,0 +1,1 @@
+C:\Users\sevar\OneDrive\Desktop\Dev\LearningRust\fundamentals\practice\Faren_to_Cels\target\debug\Faren_to_Cels.exe: C:\Users\sevar\OneDrive\Desktop\Dev\LearningRust\fundamentals\practice\Faren_to_Cels\src\main.rs
