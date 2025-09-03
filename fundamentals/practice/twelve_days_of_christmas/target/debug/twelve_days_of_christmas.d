@@ -1,0 +1,1 @@
+C:\Users\sevar\OneDrive\Desktop\Dev\LearningRust\fundamentals\practice\twelve_days_of_christmas\target\debug\twelve_days_of_christmas.exe: C:\Users\sevar\OneDrive\Desktop\Dev\LearningRust\fundamentals\practice\twelve_days_of_christmas\src\main.rs
