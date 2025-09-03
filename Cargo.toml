@@ -8,6 +8,9 @@ members = [
 	"fundamentals/control_flow",
 	"fundamentals/practice",
 	"guessing_game",
+	"fundamentals/practice/Faren_to_Cels",
+	"fundamentals/practice/fibonacci",
+	"fundamentals/practice/twelve_days_of_christmas",
 ]
 
 resolver = "2"
