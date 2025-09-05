@@ -17,15 +17,15 @@ fn og() {
     change(&s);
 }
 
-fn change(some_string: &s) {
-    some_string.push_str(", world");
+fn change(some_string: &String) {
+    //some_string.push_str(", world");
 }
 
 //you can fix the above by using a mutable reference
 //the restriction with mutable references is that the data it references cannot have any other references (mut or not) (prevents data races)
 fn og2() {
     let mut s = String::from("hello");
-    change(&mut s);
+    change2(&mut s);
 }
 
 fn change2(some_string: &mut String) {
