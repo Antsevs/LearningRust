@@ -28,7 +28,7 @@ fn og2() {
     change(&mut s);
 }
 
-fn change2(some_string: &mut s) {
+fn change2(some_string: &mut String) {
     some_string.push_str(", world");
 }
 
